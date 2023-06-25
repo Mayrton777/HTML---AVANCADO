@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exerício 1</title>
+    </head>
+
+    <body>
+        <form
+        action="email@email.com"
+        method="get">
+            <p><font face="Calibri">Nome: <input type=text name="nome"
+            size="25" maxlength="50"></p>
+            <p>N° do cartão de crédito <input type=text name="nun_cartão" 
+            size="16"></p>
+            <p>Senha: <input type=password name="senha" size="6"></p>
+            <p>Selecione a bandeira do cartão de crédito:<br>
+                <input type=radio name="selecao-cartao" checked>VISA
+                <br>
+                <input type=radio name="selecao-cartao">Mastercard
+            </p>
+            <p>Selecione horário de entrega:<br>
+                <input type=checkbox name="horario1" size="1">8h às 12h<br>
+                <input type=checkbox name="horario2" size="1">13h às 15h<br>
+                <input type=checkbox name="horario2" size="1">16h às 18h<br>
+            </p>
+            <input type=submit value="Enviar">
+            <input type=reset value="limpar">
+            <input type=hidden name="cpf" value="verdadeiro">
+        </form>
+    </body>
+</html>
